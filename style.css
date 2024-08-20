@@ -79,10 +79,26 @@ body {
     height: 90vh;
     margin: 0.5rem;
 }
+#Productos .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#Productos .card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+}
 #Productos h2{
     font-family: fantasy;
     font-size: 3rem;
     padding: 2rem;
+}
+#Productos .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+#Productos .card-text {
+    font-size: 1rem;
+    color: #6c757d; 
 }
 
 #Redes-Sociales {
