@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: #f8f9fa;  
+}
+
+.left{
+    color: #f8f9fa;
+    font-family: fantasy;
+    font-size: 2rem;
+}
+.right{
+    color:blue;
+    font-family: fantasy;
+    font-size: 2rem;
+}
+
+#Inicio{
+    background-image: url('./asset/img/imagen-inicio.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 0 auto;
+    height: 95vh;
+    margin: 5rem 0.5rem 0.5rem 0.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-name{
+    color: black;
+}
+.title-name h1{
+    background-color: rgba(255, 255, 255, 0.432);
+}
+.left-h1{
+    color: #f8f9fa;
+    font-family: fantasy;
+    font-size: 5rem;
+}
+.right-h1{
+    color:rgb(28, 28, 255);
+    font-family: fantasy;
+    font-size: 5rem;
+}
+.title-name p{
+    color: #f8f9fa;
+    font-family: fantasy;
+    font-size: 2rem;
+}
+
+#Nosotros{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    color: black;
+    background-color: #f8f9fa;
+    margin: 0.5rem;
+    width: 0 auto;
+    height: 0 auto;
+    text-align: center;
+    padding: 2.5rem 0;
+}
+#Nosotros h2{
+    font-family: fantasy;
+    font-size: 3rem;
+    padding: 2rem;
+}
+#Nosotros p{
+    font-size: 1.5rem;
+}
+
+#Productos{
+    background-color: #343a40;
+    color: white;
+    width: 0 auto;
+    height: 90vh;
+    margin: 0.5rem;
+}
+#Productos h2{
+    font-family: fantasy;
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+#Redes-Sociales {
+    background-color: #f8f9fa;
+    color: #343a40; 
+    margin: 0.5rem;
+}
+#Redes-Sociales h2{
+    font-family: fantasy;
+    font-size: 3rem;
+    padding: 2rem;
+}
+#Redes-Sociales .social-icons a{
+    text-decoration: none;
+}
+#Redes-Sociales .social-icons a img {
+    filter: none;
+}
+
+#Ubicacion {
+    background-color: #343a40;
+    color: #fff;
+    padding: 2.5rem 0;
+    margin: 0.5rem;
+}
+#Ubicacion h2 {
+    font-family: fantasy;
+    font-size: 3rem;
+    padding: 2rem;
+}
+#Ubicacion a {
+    color: #fff;
+    text-decoration: none;
+}
+#Ubicacion a:hover {
+    text-decoration: underline;
+}
+#Ubicacion p {
+    color: #fff;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1.25rem 0;
+}
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
