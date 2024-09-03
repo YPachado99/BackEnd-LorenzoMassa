@@ -16,7 +16,7 @@ body {
 }
 
 #Inicio{
-    background-image: url('./asset/img/imagen-inicio.jpg');
+    background-image: url('../img/imagen-inicio.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -72,34 +72,39 @@ body {
     font-size: 1.5rem;
 }
 
-#Productos{
+#Productos {
     background-color: #343a40;
     color: white;
-    width: 0 auto;
-    height: 90vh;
-    margin: 0.5rem;
+    padding: 2rem 0;
 }
+
 #Productos .card {
     border: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 #Productos .card-img-top {
-    height: 200px; 
-    object-fit: cover; 
+    height: 200px;
+    object-fit: cover;
 }
-#Productos h2{
+
+#Productos h2 {
     font-family: fantasy;
     font-size: 3rem;
-    padding: 2rem;
+    padding: 2rem 0;
 }
+
 #Productos .card-title {
     font-size: 1.25rem;
     font-weight: bold;
+    color: #343a40; /* Ajuste para mejor legibilidad */
 }
+
 #Productos .card-text {
     font-size: 1rem;
-    color: #6c757d; 
+    color: #343a40; /* Mejora de contraste y consistencia */
 }
+
 
 #Redes-Sociales {
     background-color: #f8f9fa;
@@ -141,9 +146,10 @@ body {
 }
 
 .footer {
-    background-color: #343a40;
     color: #fff;
-    padding: 1.25rem 0;
+    background: linear-gradient(to bottom, #fff, #343a40);
+    color: #fff; 
+    padding: 2rem 0;
 }
 .footer a {
     color: #007bff;
@@ -152,3 +158,4 @@ body {
 .footer a:hover {
     text-decoration: underline;
 }
+
