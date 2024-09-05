@@ -80,12 +80,11 @@ body {
 
 #Productos .card {
     border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); 
 }
 
 #Productos .card-img-top {
-    height: 200px;
-    object-fit: cover;
+    height: 25.5rem;
 }
 
 #Productos h2 {
@@ -97,14 +96,45 @@ body {
 #Productos .card-title {
     font-size: 1.25rem;
     font-weight: bold;
-    color: #343a40; /* Ajuste para mejor legibilidad */
+    color: #343a40; 
 }
 
 #Productos .card-text {
     font-size: 1rem;
-    color: #343a40; /* Mejora de contraste y consistencia */
+    color: #343a40; 
 }
 
+#Servicios {
+    background-color: #343a40;
+    color: white;
+    padding: 2rem 0;
+}
+
+#Servicios .card {
+    border: none;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); 
+}
+
+#Servicios .card-img-top {
+    height: 25.5rem;
+}
+
+#Servicios h2 {
+    font-family: fantasy;
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+
+#Servicios .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #343a40; 
+}
+
+#Servicios .card-text {
+    font-size: 1rem;
+    color: #343a40; 
+}
 
 #Redes-Sociales {
     background-color: #f8f9fa;
