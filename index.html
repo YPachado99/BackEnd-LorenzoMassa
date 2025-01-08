@@ -13,8 +13,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>TecnoMercado</title>
 </head>
-<body>
-    <header>
+<body id="body">
+    <header id="Header">
         <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body fixed-top" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#Inicio"><span class="left">T</span><span class="right">M</span></a>
@@ -27,7 +27,7 @@
                         <a class="nav-link" href="#Productos">Productos</a>
                         <a class="nav-link" href="#Servicios">Servicios</a>
                         <a class="nav-link" href="#Redes-Sociales">Redes Sociales</a>
-                        <a class="nav-link" href="#Ubicacion">Ubicacion</a>
+                        <a class="nav-link" href="#Ubicacion">Ubicacion / Contacto</a>
                     </div>
                 </div>
             </div>
@@ -54,236 +54,199 @@
                 </div>       
         </section>
         <!--Productos-->
-        <section id="Productos" class="bg-dark text-light py-5">
-            <div class="container">
-                <h2 class="text-center mb-5">Productos</h2>
-                <div class="row">
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Cargador De Carga Rapida TC-->
-                            <img src="https://i.ibb.co/yYMBLmW/cargador-Rapida-TC.jpg" class="card-img-top" alt="CargadorRapidaTC">
-                            <div class="card-body">
-                                <h5 class="card-title">Cargador de Carga Rapida TC</h5>
-                                <p class="card-text">3.1A, Ficha Tipo C, Con Cable Incorporado, Mas 1 Puerto Usb</p>
-                            </div>
+        <section id="Productos" >
+            <h2>Productos</h2>
+                <div class="products-container">
+                    <div class="product-card"><!--Cargador De Carga Rapida TC-->
+                        <img src="https://i.ibb.co/xsDFPRH/cargador-de-carga-rapida-tc.jpg" class="img-top-card" alt="CargadorRapidaTC">
+                        <div class="body-card">
+                            <h5 class="title-card">Cargador de Carga Rapida TC</h5>
+                            <p class="text-card">Marca Lets, 4.4A, Ficha Tipo C, Un Cable, Mas 2 Puerto Usb</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Cargador Comun TC-->
-                            <img src="https://i.ibb.co/3dn6ZZF/cargador-Comun-TC.jpg" class="card-img-top" alt="CargadorComunTC">
-                            <div class="card-body">
-                                <h5 class="card-title">Cargador Comun TC</h5>
-                                <p class="card-text">2.1A, Ficha Tipo C, Cable + 1 Puerto Usb</p>
-                            </div>
+                    <div class="product-card"><!--Cargador Comun TC-->
+                        <img src="https://i.ibb.co/Lp82ytq/cargador-Comun-TC.jpg" class="img-top-card" alt="CargadorComunTC">
+                        <div class="body-card">
+                            <h5 class="title-card">Cargador Comun TC</h5>
+                            <p class="text-card">Marca Lets, 2.1A, Ficha Tipo C, Un Cable, Mas 1 Puerto Usb</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Cargador De Carga Rapida V8-->
-                            <img src="https://i.ibb.co/VHvdw3S/cargador-Rapida-V8.jpg" class="card-img-top" alt="CargadorRapidaV8">
-                            <div class="card-body">
-                                <h5 class="card-title">Cargador Carga Rapida V8</h5>
-                                <p class="card-text">4.4A, Ficha MicroUsb(V8), Cable + 2 Puertos Usb</p>
-                            </div>
+                    <div class="product-card"><!--Cargador De Carga Rapida V8-->
+                        <img src="https://i.ibb.co/MGmp64P/cargador-Rapida-V8.jpg" class="img-top-card" alt="CargadorRapidaV8">
+                        <div class="body-card">
+                            <h5 class="title-card">Cargador Carga Rapida V8</h5>
+                            <p class="text-card">Marca Only, 4.4A, Ficha MicroUsb(V8), Un Cable, Mas 2 Puertos Usb</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Cargador comun V8-->
-                            <img src="https://i.ibb.co/PDBKK0z/cargador-Comun-V8.jpg" class="card-img-top" alt="CargadorComunV8">
-                            <div class="card-body">
-                                <h5 class="card-title">Cargador Comun V8</h5>
-                                <p class="card-text">2.1A, Ficha MicroUsb(V8), Cable + 1 Puerto Usb</p>
-                            </div>
+                    <div class="product-card"><!--Cargador comun V8-->
+                        <img src="https://i.ibb.co/QQWQttC/cargador-Comun-V8.jpg" class="img-top-card" alt="CargadorComunV8">
+                        <div class="body-card">
+                            <h5 class="title-card">Cargador Comun V8</h5>
+                            <p class="text-card">Marca Lets, 2.1A, Ficha MicroUsb(V8), Cable + 1 Puerto Usb</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Cable Usb Rapido TC-->
-                            <img src="https://i.ibb.co/sHDLqcm/cable-Usb-Rapido-TC.jpg" class="card-img-top" alt="CableUsbRapidoTC">
-                            <div class="card-body">
-                                <h5 class="card-title">Cable Usb Rapido TC</h5>
-                                <p class="card-text">3.1A, Ficha Tipo C, 1 Metro, Varios Colores</p>
-                            </div>
+                    <div class="product-card"><!--Cargador Auto usb mas cable-->
+                        <img src="https://i.ibb.co/SR1JVzG/cargador-de-auto-con-cable-v8.jpg
+                        " class="img-top-card" alt="CargadorAuto1Usb">
+                        <div class="body-card">
+                            <h5 class="title-card">Cargador Auto Boost</h5>
+                            <p class="text-card">Marca Only, 2.4A, Cable MicroUsb(V8) Incorporado, Mas 1 Puerto Usb</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Cable Usb Rapido V8-->
-                            <img src="https://i.ibb.co/vBJ7c43/cable-Usb-Rapido-V8.jpg" class="card-img-top" alt="CableUsbRapido">
-                            <div class="card-body">
-                                <h5 class="card-title">Cable Usb Rapido V8</h5>
-                                <p class="card-text">3.1A, Ficha MicroUsb(V8), 1 Metro, Varios Colores</p>
-                            </div>
+                    <div class="product-card"><!--Cargador Auto 2 usb-->
+                        <img src="https://i.ibb.co/5WVwYSK/cargador-de-auto-2usb.jpg" class="img-top-card" alt="CargadorAuto2Usb">
+                        <div class="body-card">
+                            <h5 class="title-card">Cargador Auto Booster</h5>
+                            <p class="text-card">Marca Only, 4.8A, 2 entradas Usb </p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Cable Usb Rapido iPhone-->
-                            <img src="https://i.ibb.co/2s5z0rR/cable-Usb-IP.jpg" class="card-img-top" alt="CableUsbRapidoIP">
-                            <div class="card-body">
-                                <h5 class="card-title">Cable Usb Rapido IP</h5>
-                                <p class="card-text">3.1A, Ficha iPhone, 1 Metro, Varios Colores</p>
-                            </div>
+                    <div class="product-card"><!--Cable Usb Rapido TC-->
+                        <img src="https://i.ibb.co/GJZgz2R/cable-usb-rapido-tc.jpg" class="img-top-card" alt="CableUsbRapidoTC">
+                        <div class="body-card">
+                            <h5 class="title-card">Cable Usb Rapido TC</h5>
+                            <p class="text-card">Marca XAEA, 4.4A, Ficha Tipo C, 1 Metro, Varios Colores</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Cable A/v Audio Y Video-->
-                            <img src="https://i.ibb.co/HxC2hSZ/cable-Video-PS2.jpg" class="card-img-top" alt="CableVideoPs2">
-                            <div class="card-body">
-                                <h5 class="card-title">Cable A/v Audio Y Video</h5>
-                                <p class="card-text">Conexion Ps2 Ps3, 1.8 Metro</p>
-                            </div>
+                    <div class="product-card"><!--Cable Usb Rapido V8-->
+                        <img src="https://i.ibb.co/mTfYVwZ/cable-Usb-Rapido-V8.jpg" class="img-top-card" alt="CableUsbRapido">
+                        <div class="body-card">
+                            <h5 class="title-card">Cable Usb Rapido V8</h5>
+                            <p class="text-card">Marca Only, 3.1A, Ficha MicroUsb(V8), 1 Metro, Varios Colores</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Cable De Video VGA-->
-                            <img src="https://i.ibb.co/GMfd28Q/cableVGA.jpg" class="card-img-top" alt="CableUsbRapidoIP">
-                            <div class="card-body">
-                                <h5 class="card-title">Cable De Video VGA</h5>
-                                <p class="card-text">Conexion VGA, 1.5 Metro</p>
-                            </div>
+                    <div class="product-card"><!--Cable Usb Rapido iPhone-->
+                        <img src="https://i.ibb.co/7rFgQQ0/cable-Usb-IP.jpg" class="img-top-card" alt="CableUsbRapidoIP">
+                        <div class="body-card">
+                            <h5 class="title-card">Cable Usb Rapido IP</h5>
+                            <p class="text-card">Marca Only, 3.1A, Ficha iPhone, 1 Metro, Varios Colores</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Cable De Alimentacion PC-->
-                            <img src="https://i.ibb.co/RjSFsg6/cable-Alimentacion-PC.jpg" class="card-img-top" alt="CableAlimentacionPC">
-                            <div class="card-body">
-                                <h5 class="card-title">Cable De Alimentacion</h5>
-                                <p class="card-text">Cable De Alimentacion Para Computador De Escritorio</p>
-                            </div>
+                    <div class="product-card"><!--Cable A/v Audio Y Video-->
+                        <img src="https://i.ibb.co/DwzKf7x/cable-Video-PS2.jpg" class="img-top-card" alt="CableVideoPs2">
+                        <div class="body-card">
+                            <h5 class="title-card">Cable A/v Audio Y Video</h5>
+                            <p class="text-card">Conexion Ps2 Ps3, 1.8 Metro</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Cable Otg TC-->
-                            <img src="https://i.ibb.co/4MC0dFM/cable-Otg-TC.jpg" class="card-img-top" alt="CableOtgTC">
-                            <div class="card-body">
-                                <h5 class="card-title">Cable Otg TC</h5>
-                                <p class="card-text">Conexion Usb a Tipo C</p>
-                            </div>
+                    <div class="product-card"><!--Cable De Video VGA-->
+                        <img src="https://i.ibb.co/z5TcFFj/cableVGA.jpg" class="img-top-card" alt="CableVGA">
+                        <div class="body-card">
+                            <h5 class="title-card">Cable De Video VGA</h5>
+                            <p class="text-card">Conexion VGA, 1.5 Metro</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Cable Otg V8-->
-                            <img src="https://i.ibb.co/gb8Nfh8/cable-Otg-V8.jpg" class="card-img-top" alt="CableOtgV8">
-                            <div class="card-body">
-                                <h5 class="card-title">Cable Otg V8</h5>
-                                <p class="card-text">Conexion Usb a MicroUsb(V8)</p>
-                            </div>
+                    <div class="product-card"><!--Cable De Alimentacion PC-->
+                        <img src="https://i.ibb.co/YQsyXGm/cable-Alimentacion-PC.jpg" class="img-top-card" alt="CableAlimentacionPC">
+                        <div class="body-card">
+                            <h5 class="title-card">Cable De Alimentacion</h5>
+                            <p class="text-card">Cable De Alimentacion Para Computador De Escritorio</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Cable De Red 2 Metros-->
-                            <img src="https://i.ibb.co/VMGMJBM/Cable-De-Red.jpg" class="card-img-top" alt="CableDeRed">
-                            <div class="card-body">
-                                <h5 class="card-title">Cable De Red</h5>
-                                <p class="card-text">Cable Para Conexion De Red(Internet), 2 Metros, Transferencia de hasta 100MB</p>
-                            </div>
+                    <div class="product-card"><!--Cable Otg TC-->
+                        <img src="https://i.ibb.co/PZd1gw8/cable-Otg-TC.jpg" class="img-top-card" alt="CableOtgTC">
+                        <div class="body-card">
+                            <h5 class="title-card">Cable Otg TC</h5>
+                            <p class="text-card">Marca Only, Conexion Usb a Tipo C</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Cable De Red 5 Metros-->
-                            <img src="https://i.ibb.co/VMGMJBM/Cable-De-Red.jpg" class="card-img-top" alt="CableOtgTC">
-                            <div class="card-body">
-                                <h5 class="card-title">Cable De Red</h5>
-                                <p class="card-text">Cable Para Conexion De Red(Internet), 5 Metros, Transferencia de hasta 100MB</p>
-                            </div>
+                    <div class="product-card"><!--Cable Otg V8-->
+                        <img src="https://i.ibb.co/f0KFCGH/cable-Otg-V8.jpg" class="img-top-card" alt="CableOtgV8">
+                        <div class="body-card">
+                            <h5 class="title-card">Cable Otg V8</h5>
+                            <p class="text-card">Marca Only, Conexion Usb a MicroUsb(V8)</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Cable Auxiliar-->
-                            <img src="https://i.ibb.co/g70NRZN/cable-Auxiliar.jpg" class="card-img-top" alt="CableAuxiliar">
-                            <div class="card-body">
-                                <h5 class="card-title">Cable Auxiliar</h5>
-                                <p class="card-text">Doble Conexion Jack 3.5, 1 Metro</p>
-                            </div>
+                    <div class="product-card"><!--Cable De Red 2 Metros-->
+                        <img src="https://i.ibb.co/hfzfJtX/Cable-De-Red.jpg" class="img-top-card" alt="CableDeRed2M">
+                        <div class="body-card">
+                            <h5 class="title-card">Cable De Red</h5>
+                            <p class="text-card">Marca Only, Cable Para Conexion De Red(Internet), 2 Metros, Transferencia de hasta 100MB</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Auricular Tipo Samsung-->
-                            <img src="https://i.ibb.co/h702VMv/auriculares-Tipo-Samsung.jpg" class="card-img-top" alt="AuricularesTipoSamsung">
-                            <div class="card-body">
-                                <h5 class="card-title">Auriculares Tipo Samsung</h5>
-                                <p class="card-text">Auriculares Imitacion de Samsung, Buen Sonido</p>
-                            </div>
+                    <div class="product-card"><!--Cable De Red 5 Metros-->
+                        <img src="https://i.ibb.co/hfzfJtX/Cable-De-Red.jpg" class="img-top-card" alt="CableDeRed5M">
+                        <div class="body-card">
+                            <h5 class="title-card">Cable De Red</h5>
+                            <p class="text-card">Marca Only, Cable Para Conexion De Red(Internet), 5 Metros, Transferencia de hasta 100MB</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Auricular AKG-->
-                            <img src="https://i.ibb.co/sFTxQCm/auriculares-AKG.jpg" class="card-img-top" alt="AuricularesAKG">
-                            <div class="card-body">
-                                <h5 class="card-title">Auriculares AKG</h5>
-                                <p class="card-text">Auriculares Imitacion de Samsung, Buen Sonido</p>
-                            </div>
+                    <div class="product-card"><!--Cable Auxiliar-->
+                        <img src="https://i.ibb.co/P99sWtT/cable-Auxiliar.jpg" class="img-top-card" alt="CableAuxiliar">
+                        <div class="body-card">
+                            <h5 class="title-card">Cable Auxiliar</h5>
+                            <p class="text-card">Marca Only, Doble Conexion Jack 3.5, 1 Metro</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Auricular RompeOidos-->
-                            <img src="https://i.ibb.co/BZ4sZtw/auriculares-Rompe-Oidos.jpg" class="card-img-top" alt="AuricularesRompeOidos">
-                            <div class="card-body">
-                                <h5 class="card-title">Auriculares RompeOidos</h5>
-                                <p class="card-text">Auriculares Only RompeOidos, Excelente Sonido</p>
-                            </div>
+                    <div class="product-card"><!--Auricular Tipo Samsung-->
+                        <img src="https://i.ibb.co/kQbffNQ/auriculares-Tipo-Samsung.jpg" class="img-top-card" alt="AuricularesTipoSamsung">
+                        <div class="body-card">
+                            <h5 class="title-card">Auriculares Tipo Samsung</h5>
+                            <p class="text-card">Auriculares Imitacion de Samsung, Buen Sonido</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Soporte Para Celular + Aro De Luz-->
-                            <img src="https://i.ibb.co/fxhszKZ/Soporte-Para-Celular-Aro-De-Luz.jpg" class="card-img-top" alt="SoporteCelular+Aro">
-                            <div class="card-body">
-                                <h5 class="card-title">Soporte Celular + Aro</h5>
-                                <p class="card-text">Soporte Para Celular + Aro De Luz, Conexion Usb, Material Metalico</p>
-                            </div>
+                    <div class="product-card"><!--Auricular AKG-->
+                        <img src="https://i.ibb.co/3NFg0tG/auriculares-AKG.jpg" class="img-top-card" alt="AuricularesAKG">
+                        <div class="body-card">
+                            <h5 class="title-card">Auriculares AKG</h5>
+                            <p class="text-card">Marca Only, Auriculares Imitacion de Samsung, Buen Sonido</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Soporte Para Celular-->
-                            <img src="https://i.ibb.co/V9GhmPY/soporte-Para-Celulares.jpg" class="card-img-top" alt="SoporteCelular">
-                            <div class="card-body">
-                                <h5 class="card-title">Soporte De Celular</h5>
-                                <p class="card-text">Dos Posiciones, Material Aluminio</p>
-                            </div>
+                    <div class="product-card"><!--Auricular RompeOidos-->
+                        <img src="https://i.ibb.co/qRrPZKX/auriculares-Rompe-Oidos.jpg" class="img-top-card" alt="AuricularesRompeOidos">   
+                        <div class="body-card">
+                            <h5 class="title-card">Auriculares RompeOidos</h5>
+                            <p class="text-card">Auriculares Only RompeOidos, Excelente Sonido</p>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Productos Por Encargo-->
-                            <img src="https://i.ibb.co/mCZYXxt/productos.png" class="card-img-top" alt="ProductosXEncargo">
-                            <div class="card-body">
-                                <h5 class="card-title">Cualquier Producto Por Encargo</h5>
-                                <p class="card-text">Cualquier Producto Se Puede Encargar Abonando La Mitad Del Mismo</p>
-                            </div>
+                    <div class="product-card"><!--Soporte Para Celular + Aro De Luz-->
+                        <img src="https://i.ibb.co/2Wm9KTM/Soporte-Para-Celular-Aro-De-Luz.jpgg" class="img-top-card" alt="SoporteCelular+Aro">
+                        <div class="body-card">
+                            <h5 class="title-card">Soporte Celular + Aro</h5>
+                            <p class="text-card">Marca Only, Soporte Para Celular + Aro De Luz, Conexion Usb, Material Metalico</p>
+                        </div>
+                    </div>
+                    <div class="product-card"><!--Soporte Para Celular-->
+                        <img src="https://i.ibb.co/FbpKscs/soporte-Para-Celulares.jpg" class="img-top-card" alt="SoporteCelular">
+                        <div class="body-card">
+                            <h5 class="title-card">Soporte De Celular</h5>
+                            <p class="text-card"> Marca Only, Dos Posiciones, Material Aluminio</p>
+                        </div>
+                    </div>
+                    <div class="product-card"><!--Productos Por Encargo-->
+                        <img src="https://i.ibb.co/FbTbLdT/productos.png" class="img-top-card" alt="ProductosXEncargo">
+                        <div class="body-card">
+                            <h3 class="title-card">Cualquier Producto Por Encargo</h3>
+                            <p class="text-card">Cualquier Producto Se Puede Encargar Abonando La Mitad Del Mismo</p>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
         <!--Servicios-->
-        <section id="Servicios" class="bg-dark text-light py-5">
-            <div class="container">
-                <h2 class="text-center mb-5">Servicios</h2>
-                <div class="row">
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Instalacion De Windows-->
-                            <img src="https://i.ibb.co/bN8vDDD/windows.jpg" class="card-img-top" alt="Windows">
-                            <div class="card-body">
-                                <h5 class="card-title">Instalacion De Windows</h5>
-                                <p class="card-text">Windows 10, Windows 8, Windows 7, Etc</p>
+        <section id="Servicios">
+            <h2>Servicios</h2>
+                <div class="service-container">
+                        <div class="service-card"><!--Instalacion De Windows-->
+                            <img src="https://i.ibb.co/dt80pmn/windows.jpg" class="s-img-top-card" alt="Windows">
+                            <div class="s-body-card">
+                                <h5 class="title-card">Instalacion De Windows</h5>
+                                <p class="text-card">Windows 10, Windows 8, Windows 7, Etc</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Instalacion De Aplicaciones-->
-                            <img src="https://i.ibb.co/vwxgBJB/aplicaciones.png" class="card-img-top" alt="Aplicaciones">
-                            <div class="card-body">
-                                <h5 class="card-title">Instalacion De Aplicaciones</h5>
-                                <p class="card-text">Todo Tipo De Aplicaciones De Computadora</p>
+                        <div class="service-card"><!--Instalacion De Aplicaciones-->
+                            <img src="https://i.ibb.co/QQCZvW5/aplicaciones.png" class="s-img-top-card" alt="Aplicaciones">
+                            <div class="s-body-card">
+                                <h5 class="s-title-card">Instalacion De Aplicaciones</h5>
+                                <p class="s-text-card">Todo Tipo De Aplicaciones De Computadora</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100"><!--Instalacion De Juegos-->
-                            <img src="https://i.ibb.co/Km58YmF/juegos.jpg" class="card-img-top" alt="Juegos">
-                            <div class="card-body">
-                                <h5 class="card-title">Instalacion De Juegos</h5>
-                                <p class="card-text">Todo Tipo De Juegos De Computadora</p>
+                        <div class="service-card"><!--Instalacion De Juegos-->
+                            <img src="https://i.ibb.co/cLfvFjz/juegos.jpg" class="s-img-top-card" alt="Juegos">
+                            <div class="s-body-card">
+                                <h5 class="s-title-card">Instalacion De Juegos</h5>
+                                <p class="s-text-card">Todo Tipo De Juegos De Computadora</p>
                             </div>
                         </div>
-                    </div>
                 </div>
-            </div>
         </section>     
         <!--Redes Sociales-->
         <section id="Redes-Sociales" class="bg-light text-dark py-5">
@@ -291,13 +254,13 @@
                 <h2>Síguenos en Redes Sociales</h2>
                 <div class="social-icons mt-4">
                     <a href="https://www.facebook.com/p/TecnoMercado-100064370611280/?locale=nl_NL" target="_blank" class="mx-3">
-                        <img width="120" height="120" src="https://img.icons8.com/color/96/facebook.png" alt="facebook"/>
+                        <img width="150" height="150" src="https://img.icons8.com/color/96/facebook.png" alt="facebook"/>
                     </a>
                     <a href="https://www.instagram.com/tecnomercado.tuc" target="_blank" class="mx-3">
-                        <img width="120" height="120" src="https://img.icons8.com/cute-clipart/96/instagram-new.png" alt="instagram"/>
+                        <img width="150" height="150" src="https://img.icons8.com/cute-clipart/96/instagram-new.png" alt="instagram"/>
                     </a>
                     <a href="https://www.tiktok.com/@tecnomercadotucum" target="_blank" class="mx-3">
-                        <img width="120" height="120" src="https://img.icons8.com/color/120/tiktok--v1.png" alt="tiktok"/>
+                        <img width="150" height="150" src="https://img.icons8.com/color/120/tiktok--v1.png" alt="tiktok"/>
                     </a>
                 </div>
             </div>
@@ -314,7 +277,7 @@
                         <h2>Contacto</h2>
                         <p>
                             <img width="32" height="32" src="https://img.icons8.com/papercut/32/new-post.png" alt="Email" class="me-2"/>
-                            <a href="mailto:tu-email@gmail.com" class="text-light">tecnomercado.20@gmail.com</a>
+                            <a href="mailto:tu-email@gmail.com" class="text-light" target="_blank">tecnomercado.20@gmail.com</a>
                         </p>
                         <p>
                             <img width="32" height="32" src="https://img.icons8.com/cute-clipart/32/cell-phone.png" alt="Telefono" class="me-2"/>
@@ -332,7 +295,7 @@
                 <span class="left">T</span><span class="right">M</span>
             </div>
             <p class="mb-0">
-                &copy; 2024 TecnoMercado. Todos los derechos reservados. | By <a href="https://www.linkedin.com/in/yonathan-pachado" class="text-light" target="_blank">Yonathan Pachado</a>
+                &copy; 2024 TecnoMercado. Todos los derechos reservados. | By <a href="https://programatrixwebworks.netlify.app/" class="text-0light" target="_blank">Programatrix</a>
             </p>
         </div>
     </footer>    
